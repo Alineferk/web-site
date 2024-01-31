@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f1c3f;
+    color: #fff;
+  }
+  
+  /* Navigation Styles */
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00205b;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  ul li {
+    margin-left: 20px;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Banner Styles */
+  
+  .banner {
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .banner .titulo {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .banner .sub_titulo {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .botoes .n-overlay,
+  .botoes .overlay {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botoes .n-overlay:hover,
+  .botoes .overlay:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Content Styles */
+  
+  .content {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .section-title {
+    color: #007bff;
+    font-size: 28px;
+  }
+  
+  .content p {
+    font-size: 18px;
+  }
+  
+  /* Contact Form Styles */
+  
+  .container-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario textarea {
+    resize: vertical;
+  }
+  
+  .formulario .botao {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formulario .botao:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Testimonials Styles */
+  
+  .testimonials {
+    text-align: center;
+    /* Your testimonials styles here */
+  }
+  
+  
